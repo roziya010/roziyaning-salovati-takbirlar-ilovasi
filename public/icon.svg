@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0D5C43"/>
+      <stop offset="100%" stop-color="#062E22"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="120" y1="100" x2="392" y2="412" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F1D48A"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#A87F24"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <g opacity="0.16" stroke="#F1D48A" stroke-width="2">
+    <rect x="116" y="116" width="280" height="280" rx="8"/>
+    <rect x="116" y="116" width="280" height="280" rx="8" transform="rotate(45 256 256)"/>
+  </g>
+  <path d="M294 128C226.6 128 172 182.6 172 250C172 317.4 226.6 372 294 372C322.8 372 349.3 362 370.2 345.3C355.4 352.1 338.9 356 321.5 356C257.2 356 205 303.8 205 239.5C205 186.1 241 141.1 290.1 128.3C291.4 128.1 292.7 128 294 128Z" fill="url(#gold)"/>
+  <path d="M328 172L338.5 201.5L368 212L338.5 222.5L328 252L317.5 222.5L288 212L317.5 201.5L328 172Z" fill="url(#gold)"/>
+</svg>
